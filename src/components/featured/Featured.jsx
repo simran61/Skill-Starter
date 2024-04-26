@@ -1,7 +1,7 @@
 import React from "react";
 import "./Featured.scss";
 
-const Featured = () => {
+function Featured() {
   return (
     <div className="featured">
       <div className="container">
@@ -30,6 +30,6 @@ const Featured = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Featured;
